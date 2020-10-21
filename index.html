@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREND FOLLOWING STRATEGY TWO!!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: "Balsamiq Sans", cursive
+        }
+
+        /* body{
+            background-color: rgb(12, 14, 14);
+            color: rgb(238, 237, 237);
+        } */
+
+        h1{
+            text-align: center;
+        }
+
+        h3{
+            text-transform: uppercase;
+            margin-bottom: 0;
+            margin-top: 2em;
+        }
+
+        ul{
+            padding-inline-start: 0;
+        }
+
+        li{
+            margin: .5em 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>TREND FOLLOWING STRATEGY #TWO!!</h1>
+    <ul>
+        <h3>Time Frame:</h3>
+        <li>15 mins</li>
+    </ul>
+    <ul>
+        <h3>Pairs:</h3>
+        <li>Major currency pairs ( USD )</li>
+    </ul>
+    <ul>
+        <h3>Indicators:</h3>
+        <li>EMA 20</li>
+        <li>MACD (12, 26, 9)</li>
+    </ul>
+    <ul>
+        <h3>Rules for a long Trade:</h3>
+        <li>Look for currency pair to be trading below the EMA 20 and MACD to be negative</li>
+        <li>Wait for price to cross above the EMA 20, make sure the MACD is either in the process of crossing from negative to positive or have crossed into positive territory or no longer than 5 bars ago</li>
+        <li>Go long 10 pips above EMA 20</li>
+        <li>Place stop loss 20 pips below EMA 20</li>
+        <li>Take Profit is the same as amount risked</li>
+    </ul>
+    <ul>
+        <h3>Rules for a Short Trade:</h3>
+        <li>Look for currency pair to be trading above the EMA 20 and MACD to be positive</li>
+        <li>Wait for price to cross below the EMA 20, make sure the MACD is either in the process of crossing from positive to negative or have crossed into negative territory or no longer than 5 bars ago</li>
+        <li>Go short 10 pips below EMA 20</li>
+        <li>Place stop loss 20 pips above EMA 20</li>
+    </ul>
+
+    <script>
+        let password = prompt("How stupid do you think I am ?");
+        let pin = "infinity";
+
+        while(password.toLowerCase() !== pin){
+            pass();
+        }
+        function pass(){
+            password = prompt("How stupid do you think I am ?");
+        }
+    </script>
+</body>
+
+</html>
